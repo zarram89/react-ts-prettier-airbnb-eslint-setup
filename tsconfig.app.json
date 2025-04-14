@@ -6,6 +6,9 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "composite": true,
+    "outDir": "./dist", // Указываем папку для выходных файлов
+    "declaration": true, // Генерировать .d.ts
 
     /* Bundler mode */
     "moduleResolution": "bundler",
